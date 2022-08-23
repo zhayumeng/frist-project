@@ -1,0 +1,125 @@
+@charset "UTF-8";
+body{
+	background:url(../images/body.webp) ;
+     background-repeat: no-repeat;/*使图片不管任何大小都不会重复*/
+	 background-size: 100%;/*改变背景图的长和宽*/
+	 width:300px;
+     height:300px;
+     float:left;
+}
+.yazhi101{
+	 width:500px;
+     height:300px;
+     float:left;
+	
+}
+.yazhi102{
+	width:500px;
+     height:300px;
+     float:left;
+}
+.yazhi103{
+	width:500px;
+     height:300px;
+     float:left;
+}
+.tupian{
+	 background:url(../images/yazhi.webp) ;
+     background-repeat: no-repeat;/*使图片不管任何大小都不会重复*/
+	 background-size: 100%;/*改变背景图的长和宽*/
+	 width:300px;
+     height:300px;
+     float:left;
+}
+.jieshao{
+	 float:left;
+     width:100px;
+     height:300px;
+     margin-left:30px;
+}
+  
+.centre{
+	 width:1500px;
+     height:300px;
+     float:top;
+     margin-top:50px;
+    
+}
+.last{
+	 width:1500px;
+     height:500px;
+     float:top;
+}
+.tupian2{
+	 background:url(../images/dachuang.webp) ;
+     background-repeat: no-repeat;/*使图片不管任何大小都不会重复*/
+	 background-size: 100%;/*改变背景图的长和宽*/
+	 width:300px;
+     height:300px;
+     float:left;
+}
+
+.dachuang201{
+	width:500px;
+     height:400px;
+     float:left;
+}
+.dachuang202{
+	width:500px;
+     height:400px;
+     float:left;
+     
+}
+.dachuang203{
+	width:500px;
+     height:400px;
+     float:left;
+     
+}
+.top{
+	width:1500px;
+	float:top;
+	height:60px;
+	
+}
+.zhuxiao{
+	position: absolute;
+    left: 1400px;
+}
+.tip{
+    width:300px;
+    height:650px;
+    position:absolute;
+    top: 6%;
+    left: 59%;
+    background:#fcfdfd;
+    box-shadow:1px 8px 10px 1px #9b9b9b;
+    border-radius:1px;
+    /*behavior:url(../js/pie.htc);*/
+    display:none;
+    z-index:111111;
+}
+.tip p{
+    text-align: center;
+}
+.tip .xiugai{
+    background: url("../images/money1.jpg");
+    text-align: center;
+    height: 300px;
+}
+.tip img{
+    width: 300px;
+    height: 300px;
+}
+.tip .tipbtn{
+    text-align: center;
+    margin-top: 10px;
+}
+.pay{
+    position: relative;
+    left: 5px;
+}
+.tuifang{
+    position: absolute;
+    left: 1350px;
+}

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.tip{
+    width:285px; 
+    height:260px;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    background:#fcfdfd;
+    box-shadow:1px 8px 10px 1px #9b9b9b;
+    border-radius:1px;
+    behavior:url(js/pie.htc); 
+    display:none; 
+    z-index:111111;
+}
+.tuifang{
+    width:285px;
+    height:260px;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    background:#fcfdfd;
+    box-shadow:1px 8px 10px 1px #9b9b9b;
+    border-radius:1px;
+    behavior:url(js/pie.htc);
+    display:none;
+    z-index:111111;
+}
+.btn{
+    /* float: right; */
+    text-align: center;
+    margin-top: 400px;
+    width: 100%;
+    font-size: 25px;
+}
+.tupian4{
+    width: 20px;
+    height:20px;
+    margin-top: 10px;
+}
+.tip p{
+    text-align: center;
+}
+.tip .xiugai{
+    text-align: center;
+}
+.tip .tipbtn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+a{
+    text-decoration:none;
+    color:skyblue;
+}
+
+.btn1 .tupian{
+    width: 25px;
+    height: 25px;
+}
+.tupian1{
+    width: 25px;
+    height: 25px;
+    margin-left: 400px;
+}
+.tools{
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+      }
+.tools  .btn1{
+    /* float:right;  */
+    margin-left:50px; 
+    margin-right:5px; 
+    margin-top:5px;
+    font-size: large;
+    }
+    .tools  .btn2{
+    /* float:right;  */
+    margin-left:50px; 
+    margin-right:5px; 
+    margin-top:5px;
+    font-size: large;
+    }
+.tools .like{
+        height: 32px;
+    }
+.tablelist{
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.left {
+	background: #313541;
+	width: 20%;
+	float: left;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+.top {
+	width: 80%;
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #b0cdff;
+}
+
+.leftTiyle {
+	font-size: 25px;
+	padding-left: 30px;
+	font-weight: 600;
+	color: #545454;
+	float: left;
+}
+
+.thisUser {
+	float: right;
+	margin-right: 30px;
+}
+
+.bigTitle {
+	background: #3d598a;
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+	font-family: -webkit-body;
+}
+
+.lines .active {
+	background: #272a34;
+	color: #fff;
+}
+.lines img{
+    width: 23px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 9px;
+}
+.lines div {
+	height: 70px;
+	line-height: 70px;
+	padding-left: 50px;
+	color: #707783;
+}
+
+.lines div:hover {
+	cursor: pointer;
+	color: #FFFFFF;
+}
